@@ -1,0 +1,45 @@
+object Form1: TForm1
+  Left = 449
+  Top = 221
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = #1051#1110#1085#1110#1081#1085#1110' '#1089#1087#1080#1089#1082#1080
+  ClientHeight = 132
+  ClientWidth = 230
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Button1: TButton
+    Left = 72
+    Top = 16
+    Width = 75
+    Height = 25
+    Caption = #1057#1090#1077#1082
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 72
+    Top = 56
+    Width = 75
+    Height = 25
+    Caption = #1063#1077#1088#1075#1072
+    TabOrder = 1
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 72
+    Top = 96
+    Width = 75
+    Height = 25
+    Caption = #1042#1080#1093#1110#1076
+    TabOrder = 2
+    OnClick = Button3Click
+  end
+end
